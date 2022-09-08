@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * Return: Always 0 (success)
+ * main -Printing
+ * Return: Always 0 (Successfull)
  */
 int main (void)
 {
