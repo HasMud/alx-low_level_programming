@@ -2,12 +2,12 @@
 
 
 /**
- * main - Entry point
- *
+ * main - Prints out a string stdout 
+ * 
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-printf("\"with proper grammar, but the outcome is a piece of art,");
+printf("with proper grammar, but the outcome is a piece of art,");
 return (0);
 }
