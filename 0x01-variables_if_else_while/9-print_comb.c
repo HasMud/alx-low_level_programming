@@ -18,9 +18,9 @@ if (d <= '9')
 putchar(',');
 putchar(' ');
 }
-if (d != '9')
+else (d != '9')
 {
-putchar('');
+putchar(' ');
 }
 putchar('\n');
 return (0);
