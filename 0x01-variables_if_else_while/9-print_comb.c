@@ -9,18 +9,15 @@
 int main(void)
 {
 int d;
-for (d = '0'; d <= '9'; d++)
+for (d = '48'; d <= '57'; d++)
 {
 putchar(d);
 }
-if (d <= '9')
+if (d != '57')
 {
 putchar(',');
 putchar(' ');
 }
-else (d != '9')
-{
-putchar(' ');
 }
 putchar('\n');
 return (0);
