@@ -15,6 +15,7 @@ putchar(d);
 }
 if (d != '9')
 {
+{
 putchar(',');
 putchar(' ');
 }
