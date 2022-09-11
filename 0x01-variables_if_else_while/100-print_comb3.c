@@ -14,7 +14,7 @@ for (d = 0; d < 90; d++)
 putchar((d / 10) + '0');
 putchar((d % 10) + '0');
 }
-for (d < 89)
+while (d < 89)
 {
 putchar(',');
 putchar(' ');
