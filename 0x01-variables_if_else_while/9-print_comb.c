@@ -8,16 +8,15 @@
  */
 int main(void)
 {
-int d;
-for (d = '48'; d <= '57'; d++)
+int i;
+for (i = '0'; i <= '9'; i++)
 {
-putchar(d);
+putchar(i);
 }
-if (d != '57')
+if (d != '9')
 {
 putchar(',');
 putchar(' ');
-}
 }
 putchar('\n');
 return (0);
