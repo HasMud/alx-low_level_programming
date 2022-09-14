@@ -12,7 +12,7 @@ if (n < 1)
 return n;
 }
 {
-for (n = 1; i < n; i++)
+for (n = 1; n++)
 int n = 98;
 printf("%d", fib(n));
 putchar(',');
