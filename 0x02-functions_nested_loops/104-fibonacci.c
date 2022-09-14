@@ -17,9 +17,8 @@ for (i = 1; i < n; i++)
 printf("%d ", f2);
 putchar(',');
 {
-printf("fibonacciSeries(int 98)");
+printf("fibonacciSeries(98)");
 fibonacciSeries(n - 1);
-return (0);
-}
+return 0;
 }
 }
