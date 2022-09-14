@@ -13,8 +13,7 @@ return n;
 }
 {
 for (n = 1; n++)
-int n = 98;
-printf("%d", fib(n));
+printf("%d", fib(98));
 putchar(',');
 getchar();
 return 0;
