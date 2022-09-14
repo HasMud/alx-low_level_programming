@@ -21,6 +21,6 @@ f2 = next;
 }
 int main()
 {
-printFibonacciNumbers(98);
+printf("FibonacciNumbers(98");
 return 0;
 }
