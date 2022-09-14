@@ -5,20 +5,19 @@
  * Function to print
  * Return: return 0
  */
-void fibonacciSeries(int n) 
+int fib(int n)
 {
-int f1 = 1, f2 = 3, i;
-if (n < 1)
-return;
-printf("%d ", f1);
-for (i = 1; i < n; i++) 
 {
-printf("%d ", f2);
-putchar(',');
-}
+if (n <= 1)
+return n;
+return fib(n - 1) + fib(n - 2);
 }
 int main()
 {
-printf("fibonacciSeriess(98)");
+int n = 98;
+printf("%d", fib(n));
+putchar(',');
+getchar();
 return 0;
+}
 }
