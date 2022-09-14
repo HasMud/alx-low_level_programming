@@ -8,11 +8,11 @@
 int fib(int n)
 {
 {
-if (n <= 1)
+if (i < 1)
 return n;
-return fib(n - 1) + fib(n - 2);
 }
 {
+for (i = 1; i < n; i++)
 int n = 98;
 printf("%d", fib(n));
 putchar(',');
