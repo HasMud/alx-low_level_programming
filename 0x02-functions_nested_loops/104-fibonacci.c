@@ -16,8 +16,6 @@ for (i = 1; i < n; i++)
 {
 printf("%d ", f2);
 putchar(',');
-int next = f1 + f2;
-}
 {
 printf("fibonacciSeries(int 98)");
 fibonacciSeries(n - 1);
