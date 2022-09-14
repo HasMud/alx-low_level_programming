@@ -15,7 +15,6 @@ return n;
 for (n = 1; n++)
 printf("%d", fib(98));
 putchar(',');
-getchar();
 return 0;
 }
 }
