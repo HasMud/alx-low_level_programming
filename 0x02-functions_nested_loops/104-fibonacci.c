@@ -11,10 +11,11 @@ int f1 = 1, f2 = 3, i;
 if (n < 1)
 return;
 printf("%d ", f1);
-for (i = 1; i < n; i++) {
+for (i = 1; i < n; i++) 
+{
 printf("%d ", f2);
-_putchar(',');
-int next = f1 + f2;
+putchar(',');
+int = f1 + f2;
 f1 = f2;
 f2 = next;
 }
