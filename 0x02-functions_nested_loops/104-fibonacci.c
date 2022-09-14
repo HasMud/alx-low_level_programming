@@ -5,14 +5,14 @@
  * Function to print
  * Return: return 0
  */
-int fib(int i, n)
+int fib(int n)
 {
 {
-if (i < 1)
+if (n < 1)
 return n;
 }
 {
-for (i = 1; i < n; i++)
+for (n = 1; i < n; i++)
 int n = 98;
 printf("%d", fib(n));
 putchar(',');
