@@ -5,7 +5,7 @@
  * Function to print
  * Return: return 0
  */
-int fib(int n)
+int fib(int i, n)
 {
 {
 if (i < 1)
