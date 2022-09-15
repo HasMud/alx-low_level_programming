@@ -7,19 +7,19 @@
 int main(void)
 {
 int num = 1;
-while (num++ < 100)
+while (int num =1; num < 101; num++)
 {
 if ((num % 3 == 0) && (num % 5 == 0))
 {
-printf("FizzBuzz ");
+printf("FizzBuzz" +",");
 }
 else if ((num % 3) == 0)
 {
-printf("Fizz ");
+printf("Fizz" + ",");
 }
 else if ((num % 5) == 0)
 {
-if (num != 100)
+if (num != 101)
 {
 printf("Buzz ");
 }
