@@ -6,24 +6,33 @@
  */
 int main(void)
 {
-for (int num = 1; num < 100; num++)
+int num = 1;
+while (num < 100; num++)
 {
 if ((num % 3 == 0) && (num % 5 == 0))
 {
-printf("FizzBuzz\n");
+printf("FizzBuzz");
 }
 else if ((num % 3) == 0)
 {
-printf("Fizz\n");
+printf("Fizz");
 }
 else if ((num % 5) == 0)
 {
-printf("Buzz ");
+if (num != 100)
+{
+printf("Buzz");
+}
+else
+{
+printf("Buzz");
+}
 }
 else
 {
 printf("%d ", num);
 }
-return (0);
 }
+printf("\n");
+return (0);
 }
