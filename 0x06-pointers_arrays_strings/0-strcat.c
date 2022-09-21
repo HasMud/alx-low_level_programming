@@ -1,21 +1,20 @@
-#include "main.h"
-/**
- * _strcat - a function that concatenates two strings
- * @dest: copy to
- * @src: copy from
- * Return: two concat strings
- */
-char *_strcat(char *dest, char *src)
-{
-
-	int index = 0, dest_len = 0;
-while (dest[index++])
-
-dest_len++;
-
-for (index = 0; (src[index]; index++)
-
-dest[dest_len++] = srs[index];
-
-return (dest);
+#include "main.h"                                                                                                                                      
+/**                                                                                                                                                    
+ * _strcat - concatenates the string pointed to by @src to                                                                                               
+ *the end of the string pointed to by @dest
+ * @dest: Strring that will be appended                                                                                                                                     
+ * @src: Strring to be concatenated upon                                                                                                                                   
+ * 
+ *Return: return pointer to @dest                                                                                                                          
+ */                                                                                                                                                    
+char *_strcat(char *dest, char *src)                                                                                                                   
+{                                                                                                                                                      
+int i, n;                                                                                                                                                                                                                                                                         
+for (i = 0; dest[i] != '\0'; i++)                                                                                                                                                     
+dest_n;                                                                                                                                            
+                                                                                                                                                                                                                                                               
+for (n = 0; (dest[i + n] = *src++) != '\0'; n++)                                                                                                                                                     
+dest[dest_n++] = srs[i];                                                                                                                         
+                                                                                                                                                  
+return (dest);                                                                                                                                         
 } 
