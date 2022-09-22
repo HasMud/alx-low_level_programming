@@ -1,5 +1,4 @@
 #include <stdio.h>
-int main(void)
 /**
 * write your line of code here...
 * Remember:
@@ -7,7 +6,9 @@ int main(void)
 * - you are not allowed to modify p
 * - only one statement
 * - you are not allowed to code anything else than this line of code
+*...so that this prints 98\n
 */
+int main(void)
 {
 int n;
 int a[5];
@@ -16,7 +17,7 @@ a[2] = 1024;
 p = &n;
 ;
 *(p + 5) = 98;
-/* ...so that this prints 98\n */
+/** ...so that this prints 98\n*/
 printf("a[2] = 98, %d\n", a[2]);
 return (0);
 }
