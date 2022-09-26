@@ -4,11 +4,6 @@
 * void prototypes()
 * int prototypes()
 * char prototypes()
-* Header file containing 
-* prototypes for all functions
-* used in the 0x07. 
-* C - Even more pointers, 
-* arrays and strings directory.
 */
 int _putchar(char c);
 char *_memset(char *s, char b, unsigned int n);
