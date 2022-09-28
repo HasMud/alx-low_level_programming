@@ -22,6 +22,5 @@ if (n > i / 2 )
 return (-1);
 else if (n * n == i)
 return (n);
-else
 return (squareroot(n + 1, i));
 }
