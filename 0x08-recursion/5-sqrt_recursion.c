@@ -22,8 +22,8 @@ int squareroot(int n, int i)
 {
 if (i < 1)
 return (-1);
-else if (i * i == n)
-return (i);
+else if (n * n == i)
+return (n);
 else
 return (squareroot(n, i - 1));
 }
