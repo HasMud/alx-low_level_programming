@@ -8,7 +8,7 @@ int _sqrt_recursion(int n)
 {
 if (n ==1 || n == 0)
 return (n);
-return (_sqrt(0, n));
+return (squareroot(0, n));
 }
 /**
  * squareroot - checks if perfect square
@@ -23,5 +23,5 @@ return (-1);
 else if (n * n == i)
 return (n);
 else
-return (_sqrt(n + 1, i));
+return (squareroot(n + 1, i));
 }
