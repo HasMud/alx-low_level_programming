@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * _sqrt_recursion - no loop, 1. 2nd function - checks for perfect square
  * @n: input
