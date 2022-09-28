@@ -25,5 +25,5 @@ return (-1);
 else if (n * n == i)
 return (n);
 else
-return (squareroot(n, i - 1));
+return (squareroot(n + 1, i));
 }
